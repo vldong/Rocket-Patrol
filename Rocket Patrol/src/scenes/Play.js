@@ -7,7 +7,7 @@ class Play extends Phaser.Scene{
         //load images and tile sprite
         this.load.image("rocket", "./assets/rocket.png");
         this.load.image("spaceship", "./assets/spaceship.png");
-        this.load.image("rstarfield", "./assets/starfield.png");
+        this.load.image("starfield", "./assets/starfield.png");
     }
 
     create() {
